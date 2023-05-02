@@ -16,7 +16,7 @@ ERC720 token standard on the Ethereum test net
 *	Same as with ERC20. It doesn't matter if you have token #1 or token #1000000, because internally they are not having any serial number and are indistinguishable from each other.
 *	It is important to understand the standards to deploy an ERC20 token have already been given in open zeppelin, we need to import these standards and add the additional functionalities that we desire.
 
-## Algorithm
+## Algorithm📌
 *	This project will be divided into two smart contracts, the First ERC20 contract will oversee all the operations of the Token.
 *	The second contract is an Access Control contract that follows Role-based Access control.
 
@@ -31,7 +31,7 @@ ERC720 token standard on the Ethereum test net
 8)	A function to mint new tokens that only the miner role can access.
 9)	A function to burn tokens that only the burner role can access.
 
-## Algorithm for Access Control
+## Algorithm for Access Control📌
 1)	Constants to hold the role as a Byte32 generated using the Keccak function. We can also use strings but using bytes as a hash saves Gas.
 2)	A function to grand role to different accounts.
 3)	A function to Revoke the granted roles.
