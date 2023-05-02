@@ -8,17 +8,17 @@ ERC720 token standard on the Ethereum test net
 •	TOKEN: Tokens are cryptocurrencies that are built on top of an existing blockchain. These are built using ERC-720 smart contracts. Example: Link, Shiba Inu, WBTC.
 
 ## ERC20 TOKEN 📌
-•	Do you know where the definition "ERC20" comes from? It has an interesting history!
-•	Maybe you came across RFC in the world of traditional IT. RFC stands for Request for Comment. And ERC was the early version of this for Ethereum: Ethereum Request for Comment.
-•	The number 20 simply refers to the 20th ERC that was posted by someone. That person proposed a general interface for a fungible token.
-•	Nowadays the ERCs are called EIPs: Ethereum Improvement Proposals. Because the majority of newcomers did not understand any difference between EIPs and ERCs they were merged. 
-•	What's a fungible token? That is, where each token doesn't have any sort of unique serial number and they are all worth equally much. Like Rupee or Dollar coins. You take out the coins in your pocket and 1 Rupee is 1 Rupee, doesn't matter if the coin is old and used or new and shiny.
-•	Same as with ERC20. It doesn't matter if you have token #1 or token #1000000, because internally they are not having any serial number and are indistinguishable from each other.
-•	It is important to understand the standards to deploy an ERC20 token have already been given in open zeppelin, we need to import these standards and add the additional functionalities that we desire.
+*	Do you know where the definition "ERC20" comes from? It has an interesting history!
+*	Maybe you came across RFC in the world of traditional IT. RFC stands for Request for Comment. And ERC was the early version of this for Ethereum: Ethereum Request for Comment.
+*	The number 20 simply refers to the 20th ERC that was posted by someone. That person proposed a general interface for a fungible token.
+*	Nowadays the ERCs are called EIPs: Ethereum Improvement Proposals. Because the majority of newcomers did not understand any difference between EIPs and ERCs they were merged. 
+*	What's a fungible token? That is, where each token doesn't have any sort of unique serial number and they are all worth equally much. Like Rupee or Dollar coins. You take out the coins in your pocket and 1 Rupee is 1 Rupee, doesn't matter if the coin is old and used or new and shiny.
+*	Same as with ERC20. It doesn't matter if you have token #1 or token #1000000, because internally they are not having any serial number and are indistinguishable from each other.
+*	It is important to understand the standards to deploy an ERC20 token have already been given in open zeppelin, we need to import these standards and add the additional functionalities that we desire.
 
 ## Algorithm
-•	This project will be divided into two smart contracts, the First ERC20 contract will oversee all the operations of the Token.
-•	The second contract is an Access Control contract that follows Role-based Access control.
+*	This project will be divided into two smart contracts, the First ERC20 contract will oversee all the operations of the Token.
+*	The second contract is an Access Control contract that follows Role-based Access control.
 
 ## Algorithm for ERC720 📌
 1)	Constructor to take the Token name, token symbol, and capped value from the user during the deployment of the contract.
